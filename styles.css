@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    color: rgb(244, 204, 254);
+    font-size: 27px;
+    line-height: 38px;
+}
+
+body {
+    position: relative;
+    padding-top: 20px;
+    overflow: auto;
+    background-image: url('images/1.jpg');
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: rgba(186, 62, 235, 0);
+}
+
+select {
+    background-color: rgba(169, 183, 120, 0.249);
+    padding: 1px;
+}
+
+button,
+input[type=button] {
+    cursor: pointer;
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: #c068ffdf;
+    font-family: inherit;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid rgba(248, 168, 255, 0.656);
+    border-radius: 0px;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    background-color: rgba(73, 19, 148, 0.553);
+    padding: 10px 40px;
+}
+
+button:hover {
+    color: rgb(141, 136, 254);
+    background-color: rgba(235, 185, 255, 0.827);
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+}
+
+th,
+td {
+    border: 3px solid rgb(189, 187, 192);
+}
+
+#wrapper {
+    height: 100vh;
+    width: 100vW;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#logoBlock {
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    float: left;
+}
+
+#logo {
+    background-image: url('images/3.png');
+    background-size: cover;
+    width: 300px;
+    height: 180px;
+    float: left;
+}
+
+#logostr {
+    text-align: center;
+}
+
+#uprightbt {
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: 20px;
+}
+
+#insertmenu {
+    position: absolute;
+    top: 2%;
+    margin-left: 70px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    border-radius: 50px;
+    background: rgba(186, 94, 251, 0.618) radial-gradient(circle at 0 0, rgba(200, 159, 249, 0.65), rgba(146, 98, 251, 0.35));
+    box-shadow: inset rgba(154, 81, 238, 0.5) -3px -3px 8px, inset rgba(117, 104, 225, 0.9) 3px 3px 8px, rgba(198, 104, 239, 0.8) 3px 3px 8px -3px;
+}
+
+.insertinput {
+    font-size: 15px;
+    width: 650px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 1px;
+}
+
+#insertbutton {
+    font-size: 25px;
+    width: 300px;
+    padding: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
